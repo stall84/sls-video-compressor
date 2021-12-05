@@ -1,0 +1,8 @@
+stage: ${opt:stage, env:STAGE, 'dev'}
+region: eu-east-1
+project: video-compressor
+bucketName: ${self:custom.conf.S3_BUCKET_TEST.${self:custom.conf.stage}}
+
+S3_BUCKET_TEST:
+  default: "mestestbucketfromthecouch-9901"
+  dev: "mestestbucketfromthecouch-9901"

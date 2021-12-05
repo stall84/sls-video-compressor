@@ -1,0 +1,3 @@
+testFunc1:
+  name: testFunc1
+  handler: src/lambda/testFunc1.handler

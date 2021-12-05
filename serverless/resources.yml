@@ -1,0 +1,5 @@
+Resources:
+  TestBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: mestestbucketfromthecouch-9901
